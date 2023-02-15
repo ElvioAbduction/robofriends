@@ -3,7 +3,7 @@ import './Card.css';
 
 const Card = (props) => {
 	return(
-		<div className='tc bg-light-green dib br3 pa3 ma2 grow pw2 shadow-5'>
+		<div id='card' className='tc bg-light-green dib br3 pa3 ma2 grow pw2 shadow-5'>
 			<img alt='robot' src={`https://robohash.org/${props.id}?200x200`} />
 			<div>
 				<h2>{props.name} </h2>
